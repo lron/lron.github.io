@@ -7,16 +7,14 @@
 /*---------------------------------
 	IMPORTS
 -----------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+
 /*---------------------------------
 	OVERRIDES
 -----------------------------------*/
 h1,h2,h3,h4,h5,h6{
-/*font-family: "Arimo", arial, verdana, sans-serif;*/
-font-family: 'Titillium Web', sans-serif;
+font-family: "Arimo", arial, verdana, sans-serif;
 font-weight:normal;
-
 }
 
 thead th,
@@ -40,12 +38,6 @@ blockquote{
 font-family: "Arimo", arial, verdana, sans-serif;
 }
 
-a { /*color: #0000FF ;*/
-    color: #2d1b0b;
-    text-decoration: none ;
-    font-weight: bold ;
-}
-
 /*---------------------------------
 	LAYOUT
 -----------------------------------*/
@@ -53,7 +45,7 @@ body{
 margin:0;
 padding:0 0 0 0;
 color:#000;
-background:#efefef url(css/img/tierra_jean.png);
+background:#efefef url(css/img/gray_jean.png);
 font:normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
